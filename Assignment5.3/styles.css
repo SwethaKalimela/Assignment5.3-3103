@@ -1,0 +1,16 @@
+
+
+div{
+    text-align: center;
+    background: green;
+    width: 33%;
+    height: 500px;
+    
+}
+.container{
+    display: flex; 
+    flex-direction: row; /*To align 3 child divs horizontally*/
+    justify-content: space-between; /*To fill the space between 3 child divs*/
+    height: 100%;
+    width: 100%;
+}
